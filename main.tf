@@ -49,9 +49,8 @@ resource "aws_security_group" "SGver2" {
 
 }
 resource "aws_key_pair" "default" {
-  key_name   = "n1"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRK5iwvZCwS/wSW3HXk2unh/3ueZ0d+EH5tmBl9xfoPlfutCpaljhoq8fJ1s93JLhl3g4B622LjPxXav8kzLa9AhPWy9ED4OQ77wdL97zrA2nd9ibdTYilY8F6EMlWSs5deFXJNEImQKQsynj1pWdtZ6fBIUcyzUOZFBO5/udJHUPCl+uuzTXynSax3AMjms4Kvow8kws+k0mX0gdAcaez6wIVjZvs72CGZjWytBCkIe6NfyCI65h9zXLBliUJimYPli5Z/zpU4PL3c/O0iBOc4O0zDRcr/H9VOO4q/yhkQ0l3DWY+ukDKVVXl1ocaMS3patk3iCmEfYba1sOh11XZ"
-}
+  key_name   = "##"
+  public_key = %%%%%###
 
 
 resource "aws_instance" "jenkins_master" {
